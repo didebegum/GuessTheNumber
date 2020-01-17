@@ -11,8 +11,6 @@ while len(sayiList) != 4 :
         sayiList.append(str(sayi))
         
 
-print(sayiList)
-
 while tahminEdilen != sayiList:
     tahminEt= input("Sayı tahmin ediniz: \n")
     tahminEdilen = list(tahminEt)
